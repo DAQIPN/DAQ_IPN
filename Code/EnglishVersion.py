@@ -18,7 +18,9 @@ import graph
 import Formula
 #Path para la gui es establecido
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"/home/pi/Tesis/Thesis/Code/GUI/Homescreen/build/assets/EnglishFrame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"/home/pi/Desktop/Tesis/Code/GUI/Homescreen/build/assets/EnglishFrame0")
+
+
 	
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
