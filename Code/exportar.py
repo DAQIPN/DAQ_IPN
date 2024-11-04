@@ -20,7 +20,6 @@ def exportarExcel(id_inicial, id_final):
     nombre_archivo = f"Lecturas {timestampFormat}.xlsx"
 
     # Definir la ruta de la carpeta
-    #ruta_carpeta = "/Users/anu/Documents/IPN/Tesis/Github Repo/Thesis/export"
     ruta_carpeta = "/home/pi/Desktop/ArchivosExportados/"
     # Guardar el DataFrame en un archivo Excel en la carpeta especificada
     df.to_excel(ruta_carpeta + nombre_archivo, index=False)
