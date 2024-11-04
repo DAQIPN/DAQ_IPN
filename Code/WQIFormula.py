@@ -45,15 +45,7 @@ def interpretacion(WQI):
         return "Aceptable"
     elif WQI <=3:
         return "Excelente"
-""""
-if __name__ == "__main__":
-    W=[1,2,3]
-    P=parametrizacion(330,2,2)
-    WQI = calculo(P,W)
-    print(WQI)
-    print(f"WQI = {WQI}")
-    print(interpretacion(WQI))
-"""
+
 if __name__ == "__main__":
     W = [1, 2, 3]
     
