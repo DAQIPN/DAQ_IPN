@@ -6,8 +6,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
 OUTPUT_PATH = Path(__file__).parent
-#ASSETS_PATH = OUTPUT_PATH / Path(r"/Users/anu/Documents/IPN/Tesis/GUI/small/smallMIntervalos/build/assets/frame0")
-ASSETS_PATH = OUTPUT_PATH / Path(r"/home/pi/Tesis/Thesis/Code/GUI/small/smallMIntervalos/build/assets/frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"/home/pi/Desktop/Tesis/Code/GUI/Homescreen/build/assets/frame0")
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
