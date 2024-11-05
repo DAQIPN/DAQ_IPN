@@ -31,3 +31,5 @@ for columna in columnas[2:6]:
     df[f"{columna}"] = dfTest[f"{columna}"].astype(float)
     
 df["Calidad"] = dfTest["Calidad"].astype(str)
+
+print(f"Se Tienen {len(df)} lecturas")
