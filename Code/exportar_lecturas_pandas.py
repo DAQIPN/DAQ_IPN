@@ -28,8 +28,8 @@ df = pd.DataFrame(respuesta, columns=columnas)
 
 # Se ajustan los tipos de datos de las columnas resultantes
 for columna in columnas[2:6]:
-    df[f"{columna}"] = dfTest[f"{columna}"].astype(float)
+    df[f"{columna}"] = df[f"{columna}"].astype(float)
     
-df["Calidad"] = dfTest["Calidad"].astype(str)
+df["Calidad"] = df["Calidad"].astype(str)
 
 print(f"Se Tienen {len(df)} lecturas")
