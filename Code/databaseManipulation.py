@@ -1,5 +1,5 @@
 #Script to test the python-databse connection
-import config.py
+import config
 import mysql.connector
 from datetime import datetime
 
