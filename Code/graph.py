@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from datetime import datetime
 import matplotlib as plt
 import matplotlib.pyplot as plt
-
+#English version of graficar.py
 def graphData(id_inicial, id_final):
     #Crea el motor de SQLAlchemy
     engine = create_engine(f"mysql+mysqlconnector://{config.DB_USER}:{config.DB_PASSWORD}@{config.DB_HOST}/{config.DB_NAME}")
