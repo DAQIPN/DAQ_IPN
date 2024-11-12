@@ -1,8 +1,9 @@
-#Cálculo del índice de calidad de agua
-#(Σᵢ₌₁³ Pᵢ × Wᵢ) 
-#_______________
-#  (Σᵢ₌₁³ Pᵢ)
-
+"""
+Cálculo del índice de calidad de agua / (version anterior)
+(Σᵢ₌₁³ Pᵢ × Wᵢ) 
+_______________
+  (Σᵢ₌₁³ Pᵢ)
+"""
 #Datos de prueba
 conductividad=550
 temp=23
