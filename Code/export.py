@@ -3,7 +3,7 @@ import pandas as pd
 import subprocess
 from sqlalchemy import create_engine
 from datetime import datetime
-
+#Versión en inglés del script que exporta a excel
 def exportarExcel(id_inicial, id_final):
     # Crea motor de SQLAlchemy
     engine = create_engine(f"mysql+mysqlconnector://{config.DB_USER}:{config.DB_PASSWORD}@{config.DB_HOST}/{config.DB_NAME}")
