@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 from datetime import datetime
 import matplotlib.pyplot as plt
-
+#Versión reducida de graficar.py para pantallas pequeñas.
 def graficarDatos(id_inicial, id_final):
     # Crea el motor de SQLAlchemy
     engine = create_engine(f"mysql+mysqlconnector://{config.DB_USER}:{config.DB_PASSWORD}@{config.DB_HOST}/{config.DB_NAME}")
