@@ -50,7 +50,7 @@ def getTemperatures():
             onewire_devfile = open(onewire_path, "r")
             onewire_devtext = onewire_devfile.readlines()
             onewire_temp = onewire_retemp.search(onewire_devtext[1])
-            temperature = int(onewire_temp.group(1)) / 1000.0
+	    temperature = round(int(onewire_temp.group(1)) / 1000.0, 2)
             allTemps.append(temperature)
 
     return allTemps
